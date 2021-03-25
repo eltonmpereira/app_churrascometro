@@ -1,3 +1,13 @@
+/*
+Regras de Negócio do APP
+Base de Calculos:
+Carne por pessoa: 400g; Se evento durar 6 hrs ou mais, considerar 650g por pessoa
+                Para Crianças, considerar metade desses valores;
+Cerveja por Adulto: 1200ml; SE evento durar 6hs ou mais, considerar 2000ml por pessoa;
+Bebidas Diversas por pessoa: 1000ml; Se evento durar 6hrs ou mais, considerar 1500ml por pessoa;
+*/
+
+
 let inputAdultos = document.getElementById("adultos");
 let inputCriancas = document.getElementById("criancas");
 let inputDuracao = document.getElementById("duracao");
